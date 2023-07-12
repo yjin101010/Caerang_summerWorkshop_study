@@ -1,2 +1,2 @@
 # Caerang_summerWorkshop_study
-Caerang Summer Workshop Study-Log
+Jin's Caerang Summer Workshop Study-Log
