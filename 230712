@@ -6,4 +6,23 @@
 ### 학습 평가
 Python에 대해 보다 더 잘 이해하게 된 것 같다. 
 
+## 공부 내용
+### baekjoon 2577 문제풀이 코드
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+totalMul = str(a * b * c)
+
+numbers_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+counter_list = [0] * 10
+
+for i in totalMul:
+    for j in numbers_list:
+        if int(i) == j:
+            counter_list[j] += 1
+
+for i in counter_list:
+    print(i)
 
