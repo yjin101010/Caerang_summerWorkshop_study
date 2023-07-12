@@ -1,10 +1,11 @@
 ## 날짜 | 2023/07/12(수) 
-### 공부 목표 | Python Baekjoon 알고리즘 문제 브론즈 2단계 풀어보기! 
-### 공부 계획 | Python Baekjoon 알고리즘 문제 브론즈 2단계를 풀어본다!
+### 공부 목표 | Python Baekjoon 알고리즘 문제 브론즈 2단계 풀어보기! & 통계학 기초 학습!
+### 공부 계획 | Python Baekjoon 알고리즘 문제 브론즈 2단계를 풀어본다! & <기초통계학1> 강의 수강!
 #### 사람들이 가장 많이 풀어본 문제 순으로 해서 풀어볼 것!
 
 ### 학습 평가
 Python에 대해 보다 더 잘 이해하게 된 것 같다. 
+통계학의 기초에 대해 보다 더 잘 이해하게 된 것 같다.
 
 ## 공부 내용
 ### baekjoon 2577 문제풀이 코드
@@ -25,4 +26,21 @@ for i in totalMul:
 
 for i in counter_list:
     print(i)
+
+## 공부 내용 2
+### <기초통계학1> 3주:기술통계2-수치적 해석
+
+> #### 수치를 이용한 자료정리 
+    * 중심위치
+        + 표본평균(Sample Mean)
+        + 표본비율(Sample Propotion)
+        + 이상점(Outlier)
+
+    * 표본중앙값(Sample Median)
+
+    * 표본절사평균(Sample Trimmed Mean)
+
+    * 표본최빈값(Sample Mode)
+
+
 
