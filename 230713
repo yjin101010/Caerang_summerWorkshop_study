@@ -9,4 +9,19 @@ Python에 대해 보다 더 잘 이해하게 된 것 같다.
 주피터 노트북 기초 사용법에 대해 더 익숙하게 익히게 되었다. 
 
 ## 공부 내용
-### baekjoon 2577 문제풀이 코드
+### baekjoon 8958 문제풀이 코드
+
+n = int(input())
+count = 0
+score = 0
+
+for i in range(n):
+    ox = input()
+    for j in range(len(ox)):
+        if ox[j] == "O":
+            count += 1       # count = count + 1
+            score += count
+        elif ox[j] == "X":
+            count = 0
+    print(score)
+
