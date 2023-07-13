@@ -23,3 +23,8 @@ for i in range(n):
             count = 0
     print(score)
 
+
+### baekjoon 1152 문제풀이 코드
+
+word = list(map(str,input().split()))
+print(len(word))
